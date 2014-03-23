@@ -16,7 +16,7 @@ Usage:
 # ]
 ```
 
-If you want to access the file globally:
+If you want to access the file globally, use:
 ```
 mv host-it.sh /usr/local/bin/hostit
 
