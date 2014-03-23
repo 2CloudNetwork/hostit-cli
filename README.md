@@ -23,3 +23,5 @@ mv host-it.sh /usr/local/bin/hostit
 -----
 After that you can use hostit -f .... from anywhere on your system.
 ```
+
+[ TEST ]
