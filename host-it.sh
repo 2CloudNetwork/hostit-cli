@@ -70,7 +70,7 @@ while getopts 'f:sv' flag; do
 					echo -e "\n$STATUS"
 				fi
 
-				JSON=`curl -i -s $API $query`
+				JSON=`curl --progress-bar -i -s $API $query`
 
 				PROPERTY='Link'
 				VALUE=`jsonval`
